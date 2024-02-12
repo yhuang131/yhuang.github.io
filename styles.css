@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* outer-box-pattern */
+.outer-box {
+    background-color: #673ab7; /* color for outer-box */
+    padding: 30px; /* outer-box inside margin */
+    margin: 20px auto; /*  The top and bottom margins are 20px and automatically centered horizontally */
+    max-width: 800px; /* max breadth */  
+}
+
+/* inner-box-pattern */
+.inner-box {
+    background-color: #d7b90d; /* color for inner-box */
+    padding: 20px; /* inner-box inside margin */
+    border-radius: 5px; /* Rounded corner */
+    color: white; /* color for the text */
+}
+
+/* name pattern */
+.name {
+    text-align: center; /* Center name */
+    font-size: 24px; /* Large font size */
+    margin-bottom: 10px; /* Space under name */
+}
+
+/* bio pattern */
+.bio {
+    font-size: 20px; /* 简介字体稍大 */
+}
